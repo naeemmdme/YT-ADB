@@ -1,0 +1,31 @@
+/* youtube-adblock.css
+   Hides common YouTube ad containers (cosmetic filtering only). */
+
+#player-ads,
+#masthead-ad,
+#panels > ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-ads"],
+.video-ads,
+.ytp-ad-module,
+.ytp-ad-overlay-container,
+.ytp-ad-overlay-slot,
+.ytp-ad-image-overlay,
+.ytp-ad-text-overlay,
+.ytp-ce-element-show.ytp-ce-video-ad,
+.ytp-suggested-action-badge-ad,
+ytd-ad-slot-renderer,
+ytd-in-feed-ad-layout-renderer,
+ytd-banner-promo-renderer,
+ytd-statement-banner-renderer,
+ytd-display-ad-renderer,
+ytd-promoted-sparkles-web-renderer,
+ytd-promoted-video-renderer,
+ytd-companion-slot-renderer,
+ytd-action-companion-ad-renderer,
+ytd-player-legacy-desktop-watch-ads-renderer,
+ytd-rich-item-renderer:has(ytd-ad-slot-renderer),
+ytd-merch-shelf-renderer,
+ytd-brand-video-singleton-renderer,
+ytd-brand-video-shelf-renderer,
+tp-yt-paper-dialog:has(ytd-enforcement-message-view-model) {
+  display: none !important;
+}
